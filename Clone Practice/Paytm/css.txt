@@ -1,0 +1,14 @@
+.hero{
+    height: 695px;
+    width: 100%;
+    border:2px solid black;
+    display:grid;
+    
+}
+
+
+
+
+
+
+

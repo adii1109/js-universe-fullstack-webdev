@@ -1,0 +1,324 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+.navbar{
+    background-color: #ffffff;
+    /* background-color: yellowgreen; */
+    height: 92px;
+    color:#000000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;}
+   
+
+.nav-logo{
+    width: 180px;
+    height: 55px;
+}
+
+.logo{
+    background:url('/img/paytm_logo.png');
+    background-size: cover;
+    width: 100%;
+    height: 55.23px;
+
+}
+
+/* Second box */
+
+
+ .sec-box{
+    display: flex;
+    height: 50px;
+    width: 938px;
+    /* border:2px solid salmon; */
+
+} 
+
+.sec-box ul {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     
+    
+}
+.sec-box ul li {
+    list-style: none;
+    margin-left: 12px;
+    font-size: 1rem ;
+    font-family: sans-serif;
+    font-weight: 600;
+
+}
+
+
+.user{
+    width: 115px;
+    height: 38px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00baf2;
+    color:white;
+    
+
+}
+  
+   
+
+.user span {
+     text-align: center;
+    font-size: 0.85rem;
+     font-weight: 700px;
+
+}
+
+.user img {
+    height: 34px;
+    width: 34px;
+    margin-left: 5px;
+}
+
+/* Panel */
+.sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    background-color: #f6f6f6;
+}
+.bold{
+    margin-right: 5px;
+    font-weight: 600;
+}
+
+
+.smile{
+    height: 30px;
+    width: 48px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.sec a {
+     font-weight: 600;
+}
+
+/* hero-Section */
+
+
+.hero{
+    height: 695px;
+    width: 100%;
+    /* border:2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hero-sec1{
+    width: 50%;
+    height: 690px;
+    /* background-color: lightgreen; */
+    /* display: flex;
+    justify-content: flex-start;
+    align-items: center; */
+    
+}
+
+
+.hero-logo{
+   
+    background: url('./img/1654517453942.png');
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+    
+}
+ .hero-logo1{
+    margin-top: 30%;
+    width: 650px;
+    height: 83px;
+    /* border:2px solid black; */
+    margin-left: 20%;
+} 
+ .parah{
+
+    padding-left:5px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    height:130px;
+    width: 650px;
+    /* border:2px solid black; */
+    font-weight: bolder;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+.hero-para2{
+    height: 70px;
+    width: 475px;
+    /* border:2px solid black; */
+    padding:10px;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-left: 20%;
+}
+
+
+
+.hero-btn button{
+    width: 254px;
+    height: 46px;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 20px;
+    background-color: black;
+    color:white;
+    margin-left: 20%;
+}
+
+.hero-btn button:hover{
+    background-color: white;
+    color:black;
+    border-color: #0f4a8a;
+}
+
+
+
+
+
+
+
+
+/* Hero -section 2 */
+
+.hero-sec2{
+    width: 50%;
+    height: 690px;
+    /* border:2px solid black;
+    background-color: lightseagreen; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.hero-sec2-img{
+    background: url('/img/2.webp');
+    background-size: cover;
+    width: 528px;
+    height: 503px;
+}
+
+
+/* third Sec */
+
+.third-sec{
+    height: 382px;
+    width: 100%;
+    background-color: #00baf2;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.fourth-sec{
+
+    height: 357px;
+    width: 100%;
+    background-color: #0f4a8a;
+
+}
+
+
+/* Third Section  h1  */
+
+.third-sec-cart{
+    display: flex;
+}
+
+.cart{
+    /* border:2px solid black; */
+    width: 150px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+}
+    
+ .g1{
+    margin-top: 15px;
+    height: 64px;
+    width: 64px;
+    margin-bottom: 10px;
+    margin-left: 42px;
+ }
+
+.card1{
+   
+    background: url('./img/img1/1.png');
+    background-size: cover;
+
+}
+.card2{
+   
+    background: url('./img/img1/2.png');
+    background-size: cover;
+
+}
+.card3{
+   
+    background: url('./img/img1/3.png');
+    background-size: cover;
+
+}
+.card4{
+   
+    background: url('./img/img1/4.png');
+    background-size: cover;
+
+}
+.card5{
+   
+    background: url('./img/img1/5.png');
+    background-size: cover;
+
+}
+.card6{
+   
+    background: url('./img/img1/6.png');
+    background-size: cover;
+
+}
+.card7{
+   
+    background: url('./img/img1/7.png');
+    background-size: cover;
+
+}
+
+.h1{
+    font-weight: bolder;
+    font-size: 2.4rem;
+    color:white;
+    margin-bottom: 15px;
+    margin-right: 25%;
+    
+}
+
+.f1{
+    font-size: 1rem;
+    font-weight: 600;
+    color:white;
+    text-align: center;
+}

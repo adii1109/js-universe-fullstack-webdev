@@ -1,0 +1,22 @@
+
+    <div class="hero">
+
+        <div class="hero-sec1">
+           
+         
+
+          <div class="parah2">
+         
+          </div>
+         
+
+      
+        </div>
+
+        </div>
+
+        <div class="hero-sec2">
+                <!-- <div class="hero-sec2-img"></div> -->
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure nihil, dolor voluptatem iste cupiditate, eius excepturi adipisci quas necessitatibus voluptates vero magni a. Ipsum ut id dolor, quis quos omnis harum asperiores consectetur. Sed!</p>
+        </div>
+    </div>

@@ -1,0 +1,1 @@
+console.log("Jay Shri Ram Hare Krishna Thank You God for Amzing Life . thank you so much thank you :) ");

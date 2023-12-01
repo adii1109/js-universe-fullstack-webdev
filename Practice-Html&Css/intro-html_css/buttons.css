@@ -1,0 +1,73 @@
+
+    .btn1{
+        background-color: rgb(209, 0, 0);
+        color:white;
+        border:none;
+        /* height: 35px;
+        width: 100px; */
+
+        padding:10px 15px 10px 15px;
+        padding:10px 15px;
+        /* padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right:15px; */
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 10px;
+        transition: opacity 0.15s;
+    }
+
+    .btn1:hover{
+        opacity: 0.4;
+    
+ /* opacity is 0 to 1 : 1 is normal , less than 1 decrease  */
+   }
+
+   .btn1:active{
+    opacity: 0.5;
+   }
+
+
+    #btn2{
+        background-color: white;
+        color:rgb(59, 172, 224);
+        border:2px solid rgb(59, 172, 224);
+        height: 35px;
+        width: 70px;
+        cursor: pointer;
+        border-radius: 2px;
+        margin-right: 10px;
+        transition: background-color  1scolor 1s;
+    }
+
+    #btn2:hover{
+        background-color:rgb(59, 172, 224 );
+        color:white;
+    }
+
+    #btn2:active{
+        opacity: 0.7;
+    }
+
+    #btn3{
+        background-color: rgb(20, 247, 247);
+        height: 35px;
+        width: 100px;
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+        border-radius:18px;
+        border-style: solid;
+        border:none;
+        cursor: pointer;
+        margin-left: 8px;
+        transition: box-shadow 1s;
+        
+    }
+
+    #btn3:hover{
+        box-shadow: 5px 5px 10px rgba(0,0,0,1);
+    }
+
+
