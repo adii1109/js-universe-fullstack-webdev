@@ -16,7 +16,7 @@ This will create a local copy of the repository on your machine.
 
 The repository is organized into various directories, each representing a different aspect of full-stack web development. Here's an overview of the main directories:
 
-- **/frontend**: Contains code related to the client-side or frontend development using technologies like React, Vue, or Angular.
+- **/frontend**: Contains code related to the client-side or frontend development using technologies like React.
 
 - **/backend**: Houses server-side or backend development code. This may include Node.js, Express, or other server technologies.
 
