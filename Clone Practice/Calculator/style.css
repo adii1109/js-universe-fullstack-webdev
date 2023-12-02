@@ -1,0 +1,65 @@
+
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+.Team{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    
+}
+
+
+.button{
+    font-family: Arial,sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    border: 2px solid black;
+    height:35px;
+    width: 65px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button:hover{
+    border:2px solid lightskyblue;
+}
+
+.container{
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#green{
+    background-color: green;
+    color: white;
+
+}
+#red{
+    background-color: rgb(236, 42, 42);
+    color:white;
+}
+.in{
+    display: flex;
+    margin:0px;
+    align-items: center;
+    justify-content: center;
+    margin-top:14px;
+}
+.input{
+    border: 2px solid lightgray;
+    height: 50px;
+    width: 345px;
+    margin-bottom: 0;
+    font-size: 20px;
+    padding-left: 15px;
+}
+.Team span{
+    color:#ff2f2f;
+}
