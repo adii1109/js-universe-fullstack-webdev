@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ <style>
+    /* css reset */
+    body{
+        color:white;
+        padding: 0px;
+        margin:0px;
+        background: url("img/bg.jpg");
+    }
+    .left{
+        border: 2px solid sandybrown;
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top:20px;
+    }
+
+        /* center element rules  using margin auto 3 rules ::
+         display block 
+         width set 
+         margin auto 
+        
+        */
+    .mid{
+    
+        display: block;
+        width:33%;
+        margin:20px auto;
+        border:2px solid darkkhaki;
+    }
+    .right{
+        border:2px solid saddlebrown;
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top:20px;
+
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li {
+        display:inline-block;
+        font-size: 16px;
+    }
+    .navbar li a{
+       
+        color: white;
+        text-decoration: none;
+        padding:34px 20px;
+    }
+    .navbar li a:hover ,.navbar li a.active{
+        text-decoration: underline;
+        color:gray;
+    }
+    .left img{
+        width: 30px;
+        filter: invert(100%);
+        display :block;
+        margin:auto;
+    }
+    .left div{
+        text-align: center;
+    }
+    .btn{
+        margin:0px 8px;
+        color:white;
+        background-color: black;
+        padding: 3px 4px;
+    }
+ </style>
+</head>
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/download.jpeg" alt="">
+            <div>Addy Fitness</div>
+        </div>
+        <!-- mid box for navigation -->
+        <div class="mid">
+         <ul class="navbar">
+            <li><a  class="active" href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Fitness Calculator</a></li>
+            <li><a href="#">Contact us</a></li>
+        </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call now</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+    
+</body>
+</html>
