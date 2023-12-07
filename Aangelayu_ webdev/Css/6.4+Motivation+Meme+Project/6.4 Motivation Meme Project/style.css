@@ -1,0 +1,19 @@
+*{
+    background-color: black;
+}
+
+div{
+    
+    color :white;
+}
+.imgs{
+    border:5px solid white;
+}
+.poster{
+    margin-top: 60px;
+    width: 50%;
+    margin-left:30%;
+}
+h1{
+    font-family: 'Merriweather', serif;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css-Positiong</title>
+    <style>
+        .container{
+            border:2px solid goldenrod;
+            height: 3450px;
+        }
+        .box{
+            display: inline-block;
+            border:2px solid red;
+            height: 150px;
+            width: 150px;
+            margin:2px;
+        }
+        #box-3{
+       
+
+/* 1] Position:relative:
+            relative:relative its normal position(use normarl position hilaga)
+            YOu can top bottom right left (leave will gap at its normal position) */
+        /* position: relative;
+            top:34px;
+            right:32px; */
+
+/*   2]   position:absolute 
+          absolute:relative its parants position(move towards)
+         position: absolute;
+            top:34px;
+            right:32px;
+
+
+*/      
+/*  3]     position: fixed; 
+            positon fixed towards browser windos
+            right:15px;
+
+*/      
+/*   4]    position: sticky;
+           top:3px; */
+
+           /* using navbar */
+        position: sticky;
+           top:3px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="box" id="box-1">1</div>
+        <div class="box" id="box-2">2</div>
+        <div class="box" id="box-3">3</div>
+        <div class="box" id="box-4">4</div>
+    </div>
+</body>
+</html>

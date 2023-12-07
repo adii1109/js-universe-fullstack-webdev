@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <style>
+        .container{
+            height: 544px;
+            width: 100%;
+            border :2px solid black;
+            display: flex;
+
+            /* display:flex (single line mai element came)
+            initialze the container as flex box */
+            
+
+            /* flex properties for flex container */
+            /*      flex-direction: row; (defalut)
+                    flex-direction: row-reverse;
+                    flex-direction: column;
+                    flex-direction: column-reverse;
+
+
+                    flex-wrap: wrap;
+                    flex-wrap:wrap-reverse;
+
+
+                    #Shorthand
+
+                    flex direction and flex wrap
+                    flex-flow:row-reverse wrap;
+                    
+                    */
+
+        
+            
+
+        }
+        .item{
+            height: 200px;
+            width: 200px;
+            background-color: tomato;
+            border:2px solid green;
+            margin: 10px;
+            padding:5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Flexbox is one dimetional layout method for laying out items rows and columns -->
+    
+    <h3>this is Flexbox tutorial</h3>
+    <div class="container">
+
+        <div class="item" id="item1">First Box</div>
+        <div class="item" id="item2">Second Box</div>
+        <div class="item" id="item3">Third Box</div>
+        <div class="item" id="item4">Fourth Box</div>
+        <div class="item" id="item5">Fifth Box </div>
+        <div class="item" id="item6">six Box</div>
+    </div>
+   
+</html>
