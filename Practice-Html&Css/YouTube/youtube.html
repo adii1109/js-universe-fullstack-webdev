@@ -1,10 +1,69 @@
 <!DOCTYPE html>
 <html>
     <head>
+    <title>YouTube.com Clone</title>
 
+    <style>
+
+        .thumbnail{
+            width: 300px;
+            display: block;
+            margin-top: 5px;
+
+
+            /* height: 300px;
+            /* here img will be stragth , to look use property object -fit */
+            /* object-fit: contain;
+            object-position:center;
+            border:2px solid red; */ 
+ }
+
+        .search-box{
+            display: block;
+        }
+
+        .video-title{
+            width: 300px;
+
+        }
+
+        .video-preview{
+            width: 300px;
+            display: inline-block;
+            vertical-align: top;
+            margin-right: 15px;
+
+        }
+    </style>
     </head>
 
     <body>
+        <!-- div means box  -->
+        <input class="search-box" type="text" 
+        placeholder="Search">
+
+        <div class="video-preview">
+
+            <img class="thumbnail" src="./Img/thumbnail-1.webp" alt="" srcset="">
+    
+            <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+            <p class="video-author">Marques Brownlee</p>
+            <p class="video-stat">3.4M views · 6 months ago</p>
+        </div>
+
+        <div class="video-preview">
+
+            <img class="thumbnail" src="./Img/thumbnail-2.webp" alt="" srcset="">
+    
+            <p class="video-title">
+                Try Not To Laugh Challenge #9
+                </p>
+
+            <p class="video-author">  Markiplier</p>
+
+            <p class="video-stat">
+                19M views · 4 years ago</p>
+        </div>
         
     </body>
 </html>
